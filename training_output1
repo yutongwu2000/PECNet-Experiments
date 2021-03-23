@@ -1,0 +1,1169 @@
+Past Encoder architecture : [16, 512, 256, 16]
+Dest Encoder architecture : [2, 8, 16, 16]
+Latent Encoder architecture : [32, 8, 50, 32]
+Decoder architecture : [32, 1024, 512, 1024, 2]
+Predictor architecture : [32, 1024, 512, 256, 22]
+Test time error in destination best: 2.328 and mean: 2.393
+Test time error overall (ADE) best: 1.210
+Epoch:  0
+################## BEST PERFORMANCE 1.21 ########
+Saved model to:
+/content/trained.pt
+Train Loss 13692497155.008457
+RCL 21429459.81753259
+KLD 13661287109.536907
+ADL 9780585.654025545
+Test ADE 1.2101523028137777
+Test Average FDE (Across  all samples) 2.392905497429775
+Test Min FDE 2.3276460809657493
+Test Best ADE Loss So Far (N = 20) 1.2101523028137777
+Test Best Min FDE (N = 20) 2.3276460809657493
+Test time error in destination best: 1.938 and mean: 2.274
+Test time error overall (ADE) best: 0.988
+Epoch:  1
+################## BEST PERFORMANCE 0.99 ########
+Saved model to:
+/content/trained.pt
+Train Loss 10119652.796437949
+RCL 7275300.457950148
+KLD 429958.4617604925
+ADL 2414393.8767272956
+Test ADE 0.987790926344874
+Test Average FDE (Across  all samples) 2.274497364640073
+Test Min FDE 1.9378845109694118
+Test Best ADE Loss So Far (N = 20) 0.987790926344874
+Test Best Min FDE (N = 20) 1.9378845109694118
+Test time error in destination best: 2.223 and mean: 2.672
+Test time error overall (ADE) best: 1.138
+Train Loss 5796184.798325644
+RCL 3792305.3247871944
+KLD 593282.8790463317
+ADL 1410596.5944921174
+Test ADE 1.1377019742335859
+Test Average FDE (Across  all samples) 2.6716233053859497
+Test Min FDE 2.223430725403882
+Test Best ADE Loss So Far (N = 20) 0.987790926344874
+Test Best Min FDE (N = 20) 1.9378845109694118
+Test time error in destination best: 1.634 and mean: 2.228
+Test time error overall (ADE) best: 0.882
+Epoch:  3
+################## BEST PERFORMANCE 0.88 ########
+Saved model to:
+/content/trained.pt
+Train Loss 3784394.0919659073
+RCL 2237875.4268414048
+KLD 596149.60181429
+ADL 950369.0633102171
+Test ADE 0.8823852619333107
+Test Average FDE (Across  all samples) 2.2281982353306944
+Test Min FDE 1.6337039354208782
+Test Best ADE Loss So Far (N = 20) 0.8823852619333107
+Test Best Min FDE (N = 20) 1.6337039354208782
+Test time error in destination best: 1.488 and mean: 2.160
+Test time error overall (ADE) best: 0.816
+Epoch:  4
+################## BEST PERFORMANCE 0.82 ########
+Saved model to:
+/content/trained.pt
+Train Loss 2444941.709694311
+RCL 1207657.8417365346
+KLD 537991.850833276
+ADL 699292.0171245025
+Test ADE 0.816097566989077
+Test Average FDE (Across  all samples) 2.160150804271898
+Test Min FDE 1.4876331723764447
+Test Best ADE Loss So Far (N = 20) 0.816097566989077
+Test Best Min FDE (N = 20) 1.4876331723764447
+Test time error in destination best: 1.435 and mean: 2.125
+Test time error overall (ADE) best: 0.811
+Epoch:  5
+################## BEST PERFORMANCE 0.81 ########
+Saved model to:
+/content/trained.pt
+Train Loss 1463741.0386519558
+RCL 520708.1017129808
+KLD 513700.7021866549
+ADL 429332.23475232034
+Test ADE 0.8105647481500383
+Test Average FDE (Across  all samples) 2.1253837029791804
+Test Min FDE 1.4345625544155012
+Test Best ADE Loss So Far (N = 20) 0.8105647481500383
+Test Best Min FDE (N = 20) 1.4345625544155012
+Test time error in destination best: 1.373 and mean: 2.096
+Test time error overall (ADE) best: 0.773
+Epoch:  6
+################## BEST PERFORMANCE 0.77 ########
+Saved model to:
+/content/trained.pt
+Train Loss 1244783.413907424
+RCL 419957.56840923923
+KLD 484739.32763840357
+ADL 340086.5178597816
+Test ADE 0.77285258311394
+Test Average FDE (Across  all samples) 2.096437890060282
+Test Min FDE 1.373342205453595
+Test Best ADE Loss So Far (N = 20) 0.77285258311394
+Test Best Min FDE (N = 20) 1.373342205453595
+Test time error in destination best: 1.374 and mean: 2.087
+Test time error overall (ADE) best: 0.776
+Train Loss 1100500.6446104494
+RCL 338390.59620131715
+KLD 457990.30001345597
+ADL 304119.74839567667
+Test ADE 0.7760228367763268
+Test Average FDE (Across  all samples) 2.086584887991278
+Test Min FDE 1.3743083785847323
+Test Best ADE Loss So Far (N = 20) 0.77285258311394
+Test Best Min FDE (N = 20) 1.373342205453595
+Test time error in destination best: 1.423 and mean: 2.169
+Test time error overall (ADE) best: 0.779
+Train Loss 1017889.7339361978
+RCL 294246.9777455141
+KLD 438598.5733570519
+ADL 285044.18283363216
+Test ADE 0.7787420044710431
+Test Average FDE (Across  all samples) 2.1688586463332244
+Test Min FDE 1.423175994350363
+Test Best ADE Loss So Far (N = 20) 0.77285258311394
+Test Best Min FDE (N = 20) 1.373342205453595
+Test time error in destination best: 1.341 and mean: 2.096
+Test time error overall (ADE) best: 0.756
+Epoch:  9
+################## BEST PERFORMANCE 0.76 ########
+Saved model to:
+/content/trained.pt
+Train Loss 952941.8658642704
+RCL 262524.6320094836
+KLD 420257.7540063236
+ADL 270159.47984846303
+Test ADE 0.7564428106055957
+Test Average FDE (Across  all samples) 2.095949212612035
+Test Min FDE 1.3409444426302
+Test Best ADE Loss So Far (N = 20) 0.7564428106055957
+Test Best Min FDE (N = 20) 1.3409444426302
+Test time error in destination best: 1.261 and mean: 2.029
+Test time error overall (ADE) best: 0.739
+Epoch:  10
+################## BEST PERFORMANCE 0.74 ########
+Saved model to:
+/content/trained.pt
+Train Loss 931233.0836383796
+RCL 254517.27009400763
+KLD 406260.9575793335
+ADL 270454.85596503795
+Test ADE 0.7389315355819973
+Test Average FDE (Across  all samples) 2.029174045805238
+Test Min FDE 1.2611880862782936
+Test Best ADE Loss So Far (N = 20) 0.7389315355819973
+Test Best Min FDE (N = 20) 1.2611880862782936
+Test time error in destination best: 1.285 and mean: 2.063
+Test time error overall (ADE) best: 0.715
+Epoch:  11
+################## BEST PERFORMANCE 0.71 ########
+Saved model to:
+/content/trained.pt
+Train Loss 917680.0539517628
+RCL 247846.1023178619
+KLD 398177.33406427555
+ADL 271656.6175696251
+Test ADE 0.7147359235880266
+Test Average FDE (Across  all samples) 2.062598236925277
+Test Min FDE 1.284958906978905
+Test Best ADE Loss So Far (N = 20) 0.7147359235880266
+Test Best Min FDE (N = 20) 1.2611880862782936
+Test time error in destination best: 1.290 and mean: 2.099
+Test time error overall (ADE) best: 0.723
+Train Loss 873785.1009246093
+RCL 225705.51972534877
+KLD 387308.9426318678
+ADL 260770.6385673929
+Test ADE 0.7230585964549686
+Test Average FDE (Across  all samples) 2.0994916856291788
+Test Min FDE 1.2902663409784714
+Test Best ADE Loss So Far (N = 20) 0.7147359235880266
+Test Best Min FDE (N = 20) 1.2611880862782936
+Test time error in destination best: 1.242 and mean: 2.063
+Test time error overall (ADE) best: 0.720
+Train Loss 858188.7107101463
+RCL 218612.23024595962
+KLD 379250.3476417655
+ADL 260326.13282242027
+Test ADE 0.7203921776479064
+Test Average FDE (Across  all samples) 2.0625454410597137
+Test Min FDE 1.2422532832175743
+Test Best ADE Loss So Far (N = 20) 0.7147359235880266
+Test Best Min FDE (N = 20) 1.2422532832175743
+Test time error in destination best: 1.216 and mean: 2.044
+Test time error overall (ADE) best: 0.752
+Train Loss 832477.1850820204
+RCL 205707.39374579725
+KLD 371588.32891305373
+ADL 255181.46242316943
+Test ADE 0.7515174558105936
+Test Average FDE (Across  all samples) 2.044300979579634
+Test Min FDE 1.2163086893241937
+Test Best ADE Loss So Far (N = 20) 0.7147359235880266
+Test Best Min FDE (N = 20) 1.2163086893241937
+Test time error in destination best: 1.312 and mean: 2.190
+Test time error overall (ADE) best: 0.777
+Train Loss 808554.0362294668
+RCL 192582.34346883663
+KLD 364514.14225888695
+ADL 251457.5505017426
+Test ADE 0.7774182445162922
+Test Average FDE (Across  all samples) 2.190132141910146
+Test Min FDE 1.3119514301705841
+Test Best ADE Loss So Far (N = 20) 0.7147359235880266
+Test Best Min FDE (N = 20) 1.2163086893241937
+Test time error in destination best: 1.206 and mean: 2.070
+Test time error overall (ADE) best: 0.698
+Epoch:  16
+################## BEST PERFORMANCE 0.70 ########
+Saved model to:
+/content/trained.pt
+Train Loss 777444.5858171833
+RCL 179464.4065377216
+KLD 356676.8189784356
+ADL 241303.360301026
+Test ADE 0.6984990686707848
+Test Average FDE (Across  all samples) 2.069980058259482
+Test Min FDE 1.2058155399651989
+Test Best ADE Loss So Far (N = 20) 0.6984990686707848
+Test Best Min FDE (N = 20) 1.2058155399651989
+Test time error in destination best: 1.264 and mean: 2.147
+Test time error overall (ADE) best: 0.737
+Train Loss 776340.1145181686
+RCL 179008.5424635503
+KLD 351373.27578618645
+ADL 245958.2962684316
+Test ADE 0.7369217648450045
+Test Average FDE (Across  all samples) 2.1468700345016267
+Test Min FDE 1.2640181018765004
+Test Best ADE Loss So Far (N = 20) 0.6984990686707848
+Test Best Min FDE (N = 20) 1.2058155399651989
+Test time error in destination best: 1.328 and mean: 2.209
+Test time error overall (ADE) best: 0.744
+Train Loss 745946.5505426275
+RCL 165793.50649685075
+KLD 342855.5816204631
+ADL 237297.46242531325
+Test ADE 0.7441513673900144
+Test Average FDE (Across  all samples) 2.209442357409685
+Test Min FDE 1.3279854322402735
+Test Best ADE Loss So Far (N = 20) 0.6984990686707848
+Test Best Min FDE (N = 20) 1.2058155399651989
+Test time error in destination best: 1.273 and mean: 2.202
+Test time error overall (ADE) best: 0.755
+Train Loss 732617.7928417841
+RCL 162441.2629138431
+KLD 334560.4526745699
+ADL 235616.07725337095
+Test ADE 0.7546547834546983
+Test Average FDE (Across  all samples) 2.2018367849265084
+Test Min FDE 1.272615445106439
+Test Best ADE Loss So Far (N = 20) 0.6984990686707848
+Test Best Min FDE (N = 20) 1.2058155399651989
+Test time error in destination best: 1.323 and mean: 2.252
+Test time error overall (ADE) best: 0.752
+Train Loss 718071.6342726385
+RCL 155650.36322681306
+KLD 325876.8922050376
+ADL 236544.37884078774
+Test ADE 0.7520601245563405
+Test Average FDE (Across  all samples) 2.2519004176186805
+Test Min FDE 1.3229771696303063
+Test Best ADE Loss So Far (N = 20) 0.6984990686707848
+Test Best Min FDE (N = 20) 1.2058155399651989
+Test time error in destination best: 1.206 and mean: 2.152
+Test time error overall (ADE) best: 0.689
+Epoch:  21
+################## BEST PERFORMANCE 0.69 ########
+Saved model to:
+/content/trained.pt
+Train Loss 698326.031008981
+RCL 150002.32429358567
+KLD 314258.365583862
+ADL 234065.34113153318
+Test ADE 0.6890369904962353
+Test Average FDE (Across  all samples) 2.1515180913975467
+Test Min FDE 1.2055092163236105
+Test Best ADE Loss So Far (N = 20) 0.6890369904962353
+Test Best Min FDE (N = 20) 1.2055092163236105
+Test time error in destination best: 1.154 and mean: 2.148
+Test time error overall (ADE) best: 0.687
+Epoch:  22
+################## BEST PERFORMANCE 0.69 ########
+Saved model to:
+/content/trained.pt
+Train Loss 675377.213364455
+RCL 140609.60426216244
+KLD 302512.091473313
+ADL 232255.5176289798
+Test ADE 0.6868357980237971
+Test Average FDE (Across  all samples) 2.148263200651368
+Test Min FDE 1.1542746365589227
+Test Best ADE Loss So Far (N = 20) 0.6868357980237971
+Test Best Min FDE (N = 20) 1.1542746365589227
+Test time error in destination best: 1.259 and mean: 2.257
+Test time error overall (ADE) best: 0.720
+Train Loss 656778.6311623418
+RCL 135157.12449310985
+KLD 290973.2665783558
+ADL 230648.24009087592
+Test ADE 0.7195071517959977
+Test Average FDE (Across  all samples) 2.2573506281026643
+Test Min FDE 1.259169666296847
+Test Best ADE Loss So Far (N = 20) 0.6868357980237971
+Test Best Min FDE (N = 20) 1.1542746365589227
+Test time error in destination best: 1.292 and mean: 2.358
+Test time error overall (ADE) best: 0.834
+Train Loss 602418.2626838159
+RCL 111912.27134619569
+KLD 279277.3674829997
+ADL 211228.6238546204
+Test ADE 0.8341542412770836
+Test Average FDE (Across  all samples) 2.3576856160705786
+Test Min FDE 1.2921177559287347
+Test Best ADE Loss So Far (N = 20) 0.6868357980237971
+Test Best Min FDE (N = 20) 1.1542746365589227
+Test time error in destination best: 1.203 and mean: 2.310
+Test time error overall (ADE) best: 0.709
+Train Loss 615547.4007250943
+RCL 119741.54886163231
+KLD 271235.8074780032
+ADL 224570.04438545875
+Test ADE 0.708860690966032
+Test Average FDE (Across  all samples) 2.3099885475704443
+Test Min FDE 1.2034945628379456
+Test Best ADE Loss So Far (N = 20) 0.6868357980237971
+Test Best Min FDE (N = 20) 1.1542746365589227
+Test time error in destination best: 1.220 and mean: 2.309
+Test time error overall (ADE) best: 0.747
+Train Loss 566051.1632346197
+RCL 97946.14392810277
+KLD 262617.68362793827
+ADL 205487.33567857766
+Test ADE 0.7465632595900035
+Test Average FDE (Across  all samples) 2.309150000267819
+Test Min FDE 1.220460048572428
+Test Best ADE Loss So Far (N = 20) 0.6868357980237971
+Test Best Min FDE (N = 20) 1.1542746365589227
+Test time error in destination best: 1.135 and mean: 2.246
+Test time error overall (ADE) best: 0.670
+Epoch:  27
+################## BEST PERFORMANCE 0.67 ########
+Saved model to:
+/content/trained.pt
+Train Loss 573676.0140078145
+RCL 103297.65154427063
+KLD 258668.22647770503
+ADL 211710.1359858387
+Test ADE 0.6701880593490083
+Test Average FDE (Across  all samples) 2.24602331366143
+Test Min FDE 1.1353646882316937
+Test Best ADE Loss So Far (N = 20) 0.6701880593490083
+Test Best Min FDE (N = 20) 1.1353646882316937
+Test time error in destination best: 1.196 and mean: 2.309
+Test time error overall (ADE) best: 0.676
+Train Loss 570517.6472734519
+RCL 102343.50132424742
+KLD 253594.28058849246
+ADL 214579.8653607118
+Test ADE 0.6763411281247339
+Test Average FDE (Across  all samples) 2.308727905628938
+Test Min FDE 1.1956376250366596
+Test Best ADE Loss So Far (N = 20) 0.6701880593490083
+Test Best Min FDE (N = 20) 1.1353646882316937
+Test time error in destination best: 1.225 and mean: 2.372
+Test time error overall (ADE) best: 0.772
+Train Loss 552313.6084698963
+RCL 94842.01785464195
+KLD 251228.6076154247
+ADL 206242.98299982966
+Test ADE 0.7721358792274909
+Test Average FDE (Across  all samples) 2.371915661815396
+Test Min FDE 1.2245587945456047
+Test Best ADE Loss So Far (N = 20) 0.6701880593490083
+Test Best Min FDE (N = 20) 1.1353646882316937
+Test time error in destination best: 1.170 and mean: 2.344
+Test time error overall (ADE) best: 0.697
+Train Loss 561541.6361181065
+RCL 98736.41353013393
+KLD 249038.96329752015
+ADL 213766.25929045258
+Test ADE 0.6968887650218245
+Test Average FDE (Across  all samples) 2.3443055548339857
+Test Min FDE 1.1696655803298595
+Test Best ADE Loss So Far (N = 20) 0.6701880593490083
+Test Best Min FDE (N = 20) 1.1353646882316937
+Test time error in destination best: 1.121 and mean: 2.289
+Test time error overall (ADE) best: 0.673
+Train Loss 542811.6785327591
+RCL 91438.62831754252
+KLD 244378.77510594315
+ADL 206994.2751092736
+Test ADE 0.673083567083323
+Test Average FDE (Across  all samples) 2.2891445994798056
+Test Min FDE 1.1212466678996311
+Test Best ADE Loss So Far (N = 20) 0.6701880593490083
+Test Best Min FDE (N = 20) 1.1212466678996311
+Test time error in destination best: 1.168 and mean: 2.371
+Test time error overall (ADE) best: 0.689
+Train Loss 548617.8970265477
+RCL 95888.90854216552
+KLD 242078.5253847939
+ADL 210650.46309958873
+Test ADE 0.6890336377150241
+Test Average FDE (Across  all samples) 2.370541837469224
+Test Min FDE 1.1683618717795983
+Test Best ADE Loss So Far (N = 20) 0.6701880593490083
+Test Best Min FDE (N = 20) 1.1212466678996311
+Test time error in destination best: 1.068 and mean: 2.242
+Test time error overall (ADE) best: 0.644
+Epoch:  33
+################## BEST PERFORMANCE 0.64 ########
+Saved model to:
+/content/trained.pt
+Train Loss 533741.9672797086
+RCL 90347.92736316792
+KLD 238011.94021635933
+ADL 205382.09970018128
+Test ADE 0.6444642696478429
+Test Average FDE (Across  all samples) 2.241644055450256
+Test Min FDE 1.0684060117488183
+Test Best ADE Loss So Far (N = 20) 0.6444642696478429
+Test Best Min FDE (N = 20) 1.0684060117488183
+Test time error in destination best: 1.099 and mean: 2.292
+Test time error overall (ADE) best: 0.654
+Train Loss 516112.44222094177
+RCL 82968.48853426466
+KLD 232703.30742681812
+ADL 200440.64625985883
+Test ADE 0.6544272254255156
+Test Average FDE (Across  all samples) 2.291598074913426
+Test Min FDE 1.099111788886381
+Test Best ADE Loss So Far (N = 20) 0.6444642696478429
+Test Best Min FDE (N = 20) 1.0684060117488183
+Test time error in destination best: 1.180 and mean: 2.437
+Test time error overall (ADE) best: 0.799
+Train Loss 512120.68642654846
+RCL 81765.98539261163
+KLD 227779.05036740168
+ADL 202575.6506665353
+Test ADE 0.7993388161393691
+Test Average FDE (Across  all samples) 2.437235193670816
+Test Min FDE 1.1796427176913928
+Test Best ADE Loss So Far (N = 20) 0.6444642696478429
+Test Best Min FDE (N = 20) 1.0684060117488183
+Test time error in destination best: 1.128 and mean: 2.380
+Test time error overall (ADE) best: 0.690
+Train Loss 511479.5706533857
+RCL 82771.06847592354
+KLD 224516.88893733785
+ADL 204191.61324012437
+Test ADE 0.690157381754614
+Test Average FDE (Across  all samples) 2.3804902798041447
+Test Min FDE 1.128260711934167
+Test Best ADE Loss So Far (N = 20) 0.6444642696478429
+Test Best Min FDE (N = 20) 1.0684060117488183
+Test time error in destination best: 1.067 and mean: 2.351
+Test time error overall (ADE) best: 0.686
+Train Loss 494632.9143887146
+RCL 75272.40096805757
+KLD 221415.71872940147
+ADL 197944.79469125564
+Test ADE 0.6855339625152397
+Test Average FDE (Across  all samples) 2.3508905479032443
+Test Min FDE 1.0665824034087739
+Test Best ADE Loss So Far (N = 20) 0.6444642696478429
+Test Best Min FDE (N = 20) 1.0665824034087739
+Test time error in destination best: 1.187 and mean: 2.464
+Test time error overall (ADE) best: 0.690
+Train Loss 486262.58792585495
+RCL 72373.36621410682
+KLD 219593.8781938069
+ADL 194295.34351794157
+Test ADE 0.6901455501899456
+Test Average FDE (Across  all samples) 2.4643049906581007
+Test Min FDE 1.1869178719344156
+Test Best ADE Loss So Far (N = 20) 0.6444642696478429
+Test Best Min FDE (N = 20) 1.0665824034087739
+Test time error in destination best: 0.931 and mean: 2.225
+Test time error overall (ADE) best: 0.605
+Epoch:  39
+################## BEST PERFORMANCE 0.60 ########
+Saved model to:
+/content/trained.pt
+Train Loss 482901.13988220796
+RCL 72725.51250508723
+KLD 216321.51400788978
+ADL 193854.11336923126
+Test ADE 0.6047399683644129
+Test Average FDE (Across  all samples) 2.2246800073443462
+Test Min FDE 0.9313774685839121
+Test Best ADE Loss So Far (N = 20) 0.6047399683644129
+Test Best Min FDE (N = 20) 0.9313774685839121
+Test time error in destination best: 1.439 and mean: 2.706
+Test time error overall (ADE) best: 0.903
+Train Loss 485564.28599933925
+RCL 73262.8985307203
+KLD 214871.4543018282
+ADL 197429.93316679038
+Test ADE 0.902794658991001
+Test Average FDE (Across  all samples) 2.706064621070997
+Test Min FDE 1.4388121807936447
+Test Best ADE Loss So Far (N = 20) 0.6047399683644129
+Test Best Min FDE (N = 20) 0.9313774685839121
+Test time error in destination best: 1.015 and mean: 2.305
+Test time error overall (ADE) best: 0.644
+Train Loss 484966.90845873876
+RCL 74426.02356446668
+KLD 213964.6380404028
+ADL 196576.24685386947
+Test ADE 0.6443974746699536
+Test Average FDE (Across  all samples) 2.3051002605114355
+Test Min FDE 1.0149242945791503
+Test Best ADE Loss So Far (N = 20) 0.6047399683644129
+Test Best Min FDE (N = 20) 0.9313774685839121
+Test time error in destination best: 1.252 and mean: 2.560
+Test time error overall (ADE) best: 0.743
+Train Loss 476669.4354530225
+RCL 70076.90504034497
+KLD 211554.78974761174
+ADL 195037.74066506562
+Test ADE 0.7433421304366422
+Test Average FDE (Across  all samples) 2.5601739307261098
+Test Min FDE 1.2517889003892337
+Test Best ADE Loss So Far (N = 20) 0.6047399683644129
+Test Best Min FDE (N = 20) 0.9313774685839121
+Test time error in destination best: 1.213 and mean: 2.496
+Test time error overall (ADE) best: 0.703
+Train Loss 466331.0013739014
+RCL 66918.4055174181
+KLD 210094.09365406318
+ADL 189318.50220242018
+Test ADE 0.7034990640633828
+Test Average FDE (Across  all samples) 2.4955536067240605
+Test Min FDE 1.2134024265653425
+Test Best ADE Loss So Far (N = 20) 0.6047399683644129
+Test Best Min FDE (N = 20) 0.9313774685839121
+Test time error in destination best: 0.977 and mean: 2.316
+Test time error overall (ADE) best: 0.630
+Train Loss 472922.88548478566
+RCL 69199.10027220851
+KLD 209891.90139568344
+ADL 193831.88381689362
+Test ADE 0.630462468819991
+Test Average FDE (Across  all samples) 2.3160111624807165
+Test Min FDE 0.9773348755898418
+Test Best ADE Loss So Far (N = 20) 0.6047399683644129
+Test Best Min FDE (N = 20) 0.9313774685839121
+Test time error in destination best: 1.048 and mean: 2.393
+Test time error overall (ADE) best: 0.685
+Train Loss 466416.16825020034
+RCL 68310.52532806984
+KLD 208317.81901119614
+ADL 189787.8239109344
+Test ADE 0.685479154950606
+Test Average FDE (Across  all samples) 2.392679242643847
+Test Min FDE 1.047894074290871
+Test Best ADE Loss So Far (N = 20) 0.6047399683644129
+Test Best Min FDE (N = 20) 0.9313774685839121
+Test time error in destination best: 1.051 and mean: 2.385
+Test time error overall (ADE) best: 0.638
+Train Loss 461842.9159371108
+RCL 67272.35610424288
+KLD 206865.3685684319
+ADL 187705.19126443588
+Test ADE 0.6377638460896785
+Test Average FDE (Across  all samples) 2.3845706674390468
+Test Min FDE 1.0513565905743125
+Test Best ADE Loss So Far (N = 20) 0.6047399683644129
+Test Best Min FDE (N = 20) 0.9313774685839121
+Test time error in destination best: 1.050 and mean: 2.398
+Test time error overall (ADE) best: 0.641
+Train Loss 466076.6639004588
+RCL 69715.38630441317
+KLD 206198.847514164
+ADL 190162.43008188155
+Test ADE 0.6414760261208751
+Test Average FDE (Across  all samples) 2.398261631937615
+Test Min FDE 1.0498897760318566
+Test Best ADE Loss So Far (N = 20) 0.6047399683644129
+Test Best Min FDE (N = 20) 0.9313774685839121
+Test time error in destination best: 1.109 and mean: 2.429
+Test time error overall (ADE) best: 0.665
+Train Loss 457742.05929094146
+RCL 65632.17547767634
+KLD 205918.6977219122
+ADL 186191.1860913526
+Test ADE 0.6653076712755954
+Test Average FDE (Across  all samples) 2.429157038879095
+Test Min FDE 1.1092374891089927
+Test Best ADE Loss So Far (N = 20) 0.6047399683644129
+Test Best Min FDE (N = 20) 0.9313774685839121
+Test time error in destination best: 1.101 and mean: 2.429
+Test time error overall (ADE) best: 0.656
+Train Loss 463787.70433737617
+RCL 68546.31818813499
+KLD 204995.01469464888
+ADL 190246.37145459265
+Test ADE 0.6555516230653149
+Test Average FDE (Across  all samples) 2.4291972249891893
+Test Min FDE 1.1012695797422725
+Test Best ADE Loss So Far (N = 20) 0.6047399683644129
+Test Best Min FDE (N = 20) 0.9313774685839121
+Test time error in destination best: 1.000 and mean: 2.331
+Test time error overall (ADE) best: 0.618
+Train Loss 461990.4098680271
+RCL 68696.80757534986
+KLD 203527.30522537572
+ADL 189766.2970673015
+Test ADE 0.617583479485131
+Test Average FDE (Across  all samples) 2.331344443708057
+Test Min FDE 0.9996585596085157
+Test Best ADE Loss So Far (N = 20) 0.6047399683644129
+Test Best Min FDE (N = 20) 0.9313774685839121
+Test time error in destination best: 0.958 and mean: 2.294
+Test time error overall (ADE) best: 0.638
+Train Loss 468839.21155939664
+RCL 71998.47284356345
+KLD 202697.8810924459
+ADL 194142.85762338724
+Test ADE 0.638331911021786
+Test Average FDE (Across  all samples) 2.2944309065549016
+Test Min FDE 0.9584022548596917
+Test Best ADE Loss So Far (N = 20) 0.6047399683644129
+Test Best Min FDE (N = 20) 0.9313774685839121
+Test time error in destination best: 1.123 and mean: 2.419
+Test time error overall (ADE) best: 0.663
+Train Loss 455401.2854180588
+RCL 66185.89543867577
+KLD 202079.02509654078
+ADL 187136.3648828423
+Test ADE 0.663039800073296
+Test Average FDE (Across  all samples) 2.4187261073756625
+Test Min FDE 1.123417061322854
+Test Best ADE Loss So Far (N = 20) 0.6047399683644129
+Test Best Min FDE (N = 20) 0.9313774685839121
+Test time error in destination best: 0.943 and mean: 2.290
+Test time error overall (ADE) best: 0.643
+Train Loss 451815.4845806896
+RCL 65360.58104376752
+KLD 200982.03285527776
+ADL 185472.87068164485
+Test ADE 0.6426257757506637
+Test Average FDE (Across  all samples) 2.2901337139593116
+Test Min FDE 0.9430530377167491
+Test Best ADE Loss So Far (N = 20) 0.6047399683644129
+Test Best Min FDE (N = 20) 0.9313774685839121
+Test time error in destination best: 1.028 and mean: 2.339
+Test time error overall (ADE) best: 0.633
+Train Loss 466327.85799207
+RCL 71577.35688197786
+KLD 200470.9678100415
+ADL 194279.5333000509
+Test ADE 0.6329696871980045
+Test Average FDE (Across  all samples) 2.338760397084935
+Test Min FDE 1.027740314176107
+Test Best ADE Loss So Far (N = 20) 0.6047399683644129
+Test Best Min FDE (N = 20) 0.9313774685839121
+Test time error in destination best: 1.037 and mean: 2.418
+Test time error overall (ADE) best: 0.633
+Train Loss 441569.6148140995
+RCL 61278.73633075349
+KLD 198111.8162593327
+ADL 182179.06222401332
+Test ADE 0.6326223698532517
+Test Average FDE (Across  all samples) 2.4183733852535756
+Test Min FDE 1.0373470459050897
+Test Best ADE Loss So Far (N = 20) 0.6047399683644129
+Test Best Min FDE (N = 20) 0.9313774685839121
+Test time error in destination best: 0.943 and mean: 2.348
+Test time error overall (ADE) best: 0.620
+Train Loss 435137.9344558559
+RCL 60369.88344614951
+KLD 195378.21242300494
+ADL 179389.8385867015
+Test ADE 0.6202558125528915
+Test Average FDE (Across  all samples) 2.347699647676608
+Test Min FDE 0.9427766501593532
+Test Best ADE Loss So Far (N = 20) 0.6047399683644129
+Test Best Min FDE (N = 20) 0.9313774685839121
+Test time error in destination best: 0.983 and mean: 2.392
+Test time error overall (ADE) best: 0.668
+Train Loss 441075.10725066887
+RCL 63338.764128764196
+KLD 194246.7888928696
+ADL 183489.554229035
+Test ADE 0.6682101861763586
+Test Average FDE (Across  all samples) 2.392399014769961
+Test Min FDE 0.982924214827542
+Test Best ADE Loss So Far (N = 20) 0.6047399683644129
+Test Best Min FDE (N = 20) 0.9313774685839121
+Test time error in destination best: 1.029 and mean: 2.412
+Test time error overall (ADE) best: 0.618
+Train Loss 439196.69393425836
+RCL 63958.46080314809
+KLD 190349.3931098863
+ADL 184888.84002122443
+Test ADE 0.6178945338459214
+Test Average FDE (Across  all samples) 2.411839205737172
+Test Min FDE 1.02889081323914
+Test Best ADE Loss So Far (N = 20) 0.6047399683644129
+Test Best Min FDE (N = 20) 0.9313774685839121
+Test time error in destination best: 0.990 and mean: 2.372
+Test time error overall (ADE) best: 0.638
+Train Loss 432145.51257216
+RCL 62692.73319448217
+KLD 184960.7161170354
+ADL 184492.06326064203
+Test ADE 0.6379106642472303
+Test Average FDE (Across  all samples) 2.372080749478626
+Test Min FDE 0.9895635841310133
+Test Best ADE Loss So Far (N = 20) 0.6047399683644129
+Test Best Min FDE (N = 20) 0.9313774685839121
+Test time error in destination best: 0.965 and mean: 2.404
+Test time error overall (ADE) best: 0.629
+Train Loss 407101.6356302173
+RCL 52547.14996899018
+KLD 180259.85400449677
+ADL 174294.6316567304
+Test ADE 0.6287475039412181
+Test Average FDE (Across  all samples) 2.4036758363636865
+Test Min FDE 0.9646661588364159
+Test Best ADE Loss So Far (N = 20) 0.6047399683644129
+Test Best Min FDE (N = 20) 0.9313774685839121
+Test time error in destination best: 1.079 and mean: 2.526
+Test time error overall (ADE) best: 0.693
+Train Loss 413905.01662457554
+RCL 56257.07991814404
+KLD 176779.10276824306
+ADL 180868.8339381885
+Test ADE 0.6925959182003008
+Test Average FDE (Across  all samples) 2.526483198232942
+Test Min FDE 1.0786698686001392
+Test Best ADE Loss So Far (N = 20) 0.6047399683644129
+Test Best Min FDE (N = 20) 0.9313774685839121
+Test time error in destination best: 1.028 and mean: 2.489
+Test time error overall (ADE) best: 0.664
+Train Loss 405597.7019794345
+RCL 54165.58925574132
+KLD 172512.9183330092
+ADL 178919.19439068405
+Test ADE 0.663835165020625
+Test Average FDE (Across  all samples) 2.489311991624096
+Test Min FDE 1.0275804008673919
+Test Best ADE Loss So Far (N = 20) 0.6047399683644129
+Test Best Min FDE (N = 20) 0.9313774685839121
+Test time error in destination best: 1.102 and mean: 2.601
+Test time error overall (ADE) best: 0.663
+Train Loss 397912.9117902092
+RCL 50674.522199296815
+KLD 170677.1418826591
+ADL 176561.2477082532
+Test ADE 0.6625362317091915
+Test Average FDE (Across  all samples) 2.6012031003590796
+Test Min FDE 1.1021411541530661
+Test Best ADE Loss So Far (N = 20) 0.6047399683644129
+Test Best Min FDE (N = 20) 0.9313774685839121
+Test time error in destination best: 1.062 and mean: 2.574
+Test time error overall (ADE) best: 0.665
+Train Loss 406723.43835865427
+RCL 57218.38096637587
+KLD 168464.8868086949
+ADL 181040.17058358315
+Test ADE 0.66493942311368
+Test Average FDE (Across  all samples) 2.5737644806609903
+Test Min FDE 1.0624919175031848
+Test Best ADE Loss So Far (N = 20) 0.6047399683644129
+Test Best Min FDE (N = 20) 0.9313774685839121
+Test time error in destination best: 1.012 and mean: 2.533
+Test time error overall (ADE) best: 0.643
+Train Loss 385610.78721834405
+RCL 47438.67752084633
+KLD 167071.60530711312
+ADL 171100.50439038448
+Test ADE 0.6428565116642537
+Test Average FDE (Across  all samples) 2.532836094934093
+Test Min FDE 1.0118234492256417
+Test Best ADE Loss So Far (N = 20) 0.6047399683644129
+Test Best Min FDE (N = 20) 0.9313774685839121
+Test time error in destination best: 1.018 and mean: 2.525
+Test time error overall (ADE) best: 0.635
+Train Loss 390602.7085298316
+RCL 49476.29234600878
+KLD 166545.9688360931
+ADL 174580.44734772985
+Test ADE 0.6354284915371436
+Test Average FDE (Across  all samples) 2.524704895655214
+Test Min FDE 1.0179324536268115
+Test Best ADE Loss So Far (N = 20) 0.6047399683644129
+Test Best Min FDE (N = 20) 0.9313774685839121
+Test time error in destination best: 0.926 and mean: 2.426
+Test time error overall (ADE) best: 0.617
+Train Loss 393068.9006080367
+RCL 51270.10100853121
+KLD 165279.5242749674
+ADL 176519.27532453794
+Test ADE 0.6166272710961129
+Test Average FDE (Across  all samples) 2.4259144159645776
+Test Min FDE 0.9259608441588137
+Test Best ADE Loss So Far (N = 20) 0.6047399683644129
+Test Best Min FDE (N = 20) 0.9259608441588137
+Test time error in destination best: 0.961 and mean: 2.466
+Test time error overall (ADE) best: 0.619
+Train Loss 397735.5129168885
+RCL 54391.056105849435
+KLD 164597.15486691528
+ADL 178747.301944124
+Test ADE 0.6187679051618402
+Test Average FDE (Across  all samples) 2.466108433451197
+Test Min FDE 0.9610247450642293
+Test Best ADE Loss So Far (N = 20) 0.6047399683644129
+Test Best Min FDE (N = 20) 0.9259608441588137
+Test time error in destination best: 1.018 and mean: 2.532
+Test time error overall (ADE) best: 0.636
+Train Loss 385912.1281236055
+RCL 49301.70780142393
+KLD 163532.01572328407
+ADL 173078.40459889744
+Test ADE 0.6362827178746012
+Test Average FDE (Across  all samples) 2.5321590727356846
+Test Min FDE 1.0184504729166857
+Test Best ADE Loss So Far (N = 20) 0.6047399683644129
+Test Best Min FDE (N = 20) 0.9259608441588137
+Test time error in destination best: 0.994 and mean: 2.513
+Test time error overall (ADE) best: 0.620
+Train Loss 383139.42895385245
+RCL 48445.34077142484
+KLD 163334.86640312444
+ADL 171359.22177930357
+Test ADE 0.6195567497384923
+Test Average FDE (Across  all samples) 2.513201334405484
+Test Min FDE 0.9939733558556401
+Test Best ADE Loss So Far (N = 20) 0.6047399683644129
+Test Best Min FDE (N = 20) 0.9259608441588137
+Test time error in destination best: 1.005 and mean: 2.517
+Test time error overall (ADE) best: 0.625
+Train Loss 384125.89972920396
+RCL 49073.538226998644
+KLD 163360.06106218215
+ADL 171692.3004400229
+Test ADE 0.6245781894258332
+Test Average FDE (Across  all samples) 2.517243827361501
+Test Min FDE 1.0054830860103077
+Test Best ADE Loss So Far (N = 20) 0.6047399683644129
+Test Best Min FDE (N = 20) 0.9259608441588137
+Test time error in destination best: 0.949 and mean: 2.490
+Test time error overall (ADE) best: 0.624
+Train Loss 381523.49487660534
+RCL 48936.63406247055
+KLD 162081.0992485899
+ADL 170505.76156554505
+Test ADE 0.6243935298121426
+Test Average FDE (Across  all samples) 2.4896447740209364
+Test Min FDE 0.9492171490748538
+Test Best ADE Loss So Far (N = 20) 0.6047399683644129
+Test Best Min FDE (N = 20) 0.9259608441588137
+Test time error in destination best: 0.972 and mean: 2.500
+Test time error overall (ADE) best: 0.649
+Train Loss 382155.03878551547
+RCL 49166.59291909783
+KLD 162175.60741031304
+ADL 170812.8384561045
+Test ADE 0.6487773485717759
+Test Average FDE (Across  all samples) 2.499871206967611
+Test Min FDE 0.9717095164458318
+Test Best ADE Loss So Far (N = 20) 0.6047399683644129
+Test Best Min FDE (N = 20) 0.9259608441588137
+Test time error in destination best: 0.993 and mean: 2.571
+Test time error overall (ADE) best: 0.631
+Train Loss 380521.76097457146
+RCL 49067.24446560761
+KLD 161637.42385142227
+ADL 169817.0926575417
+Test ADE 0.6308515123366243
+Test Average FDE (Across  all samples) 2.5712306641903635
+Test Min FDE 0.9928384407940797
+Test Best ADE Loss So Far (N = 20) 0.6047399683644129
+Test Best Min FDE (N = 20) 0.9259608441588137
+Test time error in destination best: 0.878 and mean: 2.419
+Test time error overall (ADE) best: 0.622
+Train Loss 382201.78123599605
+RCL 49273.14932253319
+KLD 161659.3050183701
+ADL 171269.32689509288
+Test ADE 0.6215443817295665
+Test Average FDE (Across  all samples) 2.419166922137621
+Test Min FDE 0.8780928150031487
+Test Best ADE Loss So Far (N = 20) 0.6047399683644129
+Test Best Min FDE (N = 20) 0.8780928150031487
+Test time error in destination best: 0.905 and mean: 2.472
+Test time error overall (ADE) best: 0.579
+Epoch:  76
+################## BEST PERFORMANCE 0.58 ########
+Saved model to:
+/content/trained.pt
+Train Loss 383626.96110355516
+RCL 50188.01057893774
+KLD 161705.03176056885
+ADL 171733.9187640486
+Test ADE 0.5786969207348209
+Test Average FDE (Across  all samples) 2.4718568436831894
+Test Min FDE 0.9052487713260639
+Test Best ADE Loss So Far (N = 20) 0.5786969207348209
+Test Best Min FDE (N = 20) 0.8780928150031487
+Test time error in destination best: 0.953 and mean: 2.511
+Test time error overall (ADE) best: 0.597
+Train Loss 376135.1081117241
+RCL 46463.89121960579
+KLD 161718.0384532124
+ADL 167953.17843890598
+Test ADE 0.5968570418955407
+Test Average FDE (Across  all samples) 2.5107514620242655
+Test Min FDE 0.9525488168780365
+Test Best ADE Loss So Far (N = 20) 0.5786969207348209
+Test Best Min FDE (N = 20) 0.8780928150031487
+Test time error in destination best: 0.996 and mean: 2.554
+Test time error overall (ADE) best: 0.654
+Train Loss 374203.620263568
+RCL 46272.96220164417
+KLD 160865.56399115556
+ADL 167065.09407076845
+Test ADE 0.6543396372416151
+Test Average FDE (Across  all samples) 2.5539150649275113
+Test Min FDE 0.995954439016087
+Test Best ADE Loss So Far (N = 20) 0.5786969207348209
+Test Best Min FDE (N = 20) 0.8780928150031487
+Test time error in destination best: 1.100 and mean: 2.637
+Test time error overall (ADE) best: 0.666
+Train Loss 376410.65572892706
+RCL 47150.71809942558
+KLD 161167.72668786
+ADL 168092.21094164148
+Test ADE 0.6658366329845501
+Test Average FDE (Across  all samples) 2.6370927074703765
+Test Min FDE 1.0996649473829987
+Test Best ADE Loss So Far (N = 20) 0.5786969207348209
+Test Best Min FDE (N = 20) 0.8780928150031487
+Test time error in destination best: 0.970 and mean: 2.524
+Test time error overall (ADE) best: 0.613
+Train Loss 388257.39388219407
+RCL 53168.5837768606
+KLD 160972.8606029137
+ADL 174115.9495024196
+Test ADE 0.6127857921951888
+Test Average FDE (Across  all samples) 2.523503183887368
+Test Min FDE 0.9699656518586909
+Test Best ADE Loss So Far (N = 20) 0.5786969207348209
+Test Best Min FDE (N = 20) 0.8780928150031487
+Test time error in destination best: 0.970 and mean: 2.520
+Test time error overall (ADE) best: 0.627
+Train Loss 373284.2963316721
+RCL 46697.816890044676
+KLD 160400.18926954808
+ADL 166186.29017207943
+Test ADE 0.6273670522792765
+Test Average FDE (Across  all samples) 2.5200135591496617
+Test Min FDE 0.970000419723812
+Test Best ADE Loss So Far (N = 20) 0.5786969207348209
+Test Best Min FDE (N = 20) 0.8780928150031487
+Test time error in destination best: 0.941 and mean: 2.556
+Test time error overall (ADE) best: 0.603
+Train Loss 374004.6782898012
+RCL 46382.25309666888
+KLD 160876.30040482953
+ADL 166746.12478830258
+Test ADE 0.6025959425269021
+Test Average FDE (Across  all samples) 2.5562888463758577
+Test Min FDE 0.9409160050477338
+Test Best ADE Loss So Far (N = 20) 0.5786969207348209
+Test Best Min FDE (N = 20) 0.8780928150031487
+Test time error in destination best: 0.973 and mean: 2.512
+Test time error overall (ADE) best: 0.638
+Train Loss 391856.37951289857
+RCL 55373.76334389697
+KLD 161080.83438001914
+ADL 175401.78178898233
+Test ADE 0.6376246140698392
+Test Average FDE (Across  all samples) 2.51151122378889
+Test Min FDE 0.9730820571528048
+Test Best ADE Loss So Far (N = 20) 0.5786969207348209
+Test Best Min FDE (N = 20) 0.8780928150031487
+Test time error in destination best: 0.954 and mean: 2.497
+Test time error overall (ADE) best: 0.643
+Train Loss 375684.1311465015
+RCL 46672.31668542669
+KLD 161243.66339303108
+ADL 167768.15106804375
+Test ADE 0.6431748121932425
+Test Average FDE (Across  all samples) 2.4974657020448903
+Test Min FDE 0.954238046154704
+Test Best ADE Loss So Far (N = 20) 0.5786969207348209
+Test Best Min FDE (N = 20) 0.8780928150031487
+Test time error in destination best: 0.993 and mean: 2.555
+Test time error overall (ADE) best: 0.621
+Train Loss 376540.3999279817
+RCL 48996.433885624094
+KLD 160326.27121860872
+ADL 167217.69482374872
+Test ADE 0.6212260990642214
+Test Average FDE (Across  all samples) 2.554940319071395
+Test Min FDE 0.9930893118032108
+Test Best ADE Loss So Far (N = 20) 0.5786969207348209
+Test Best Min FDE (N = 20) 0.8780928150031487
+Test time error in destination best: 1.079 and mean: 2.647
+Test time error overall (ADE) best: 0.659
+Train Loss 371530.48298959417
+RCL 47294.20976930208
+KLD 159741.92554959547
+ADL 164494.34767069668
+Test ADE 0.6594205667261592
+Test Average FDE (Across  all samples) 2.647367106949619
+Test Min FDE 1.079029429277239
+Test Best ADE Loss So Far (N = 20) 0.5786969207348209
+Test Best Min FDE (N = 20) 0.8780928150031487
+Test time error in destination best: 0.900 and mean: 2.434
+Test time error overall (ADE) best: 0.596
+Train Loss 372423.11594801914
+RCL 46743.01148318496
+KLD 160602.08423351898
+ADL 165078.02023131517
+Test ADE 0.5964637308482093
+Test Average FDE (Across  all samples) 2.434336895639332
+Test Min FDE 0.8999717398530885
+Test Best ADE Loss So Far (N = 20) 0.5786969207348209
+Test Best Min FDE (N = 20) 0.8780928150031487
+Test time error in destination best: 0.990 and mean: 2.569
+Test time error overall (ADE) best: 0.628
+Train Loss 372068.00340367516
+RCL 47219.29909909576
+KLD 160423.4118704808
+ADL 164425.29243409887
+Test ADE 0.6276130454141063
+Test Average FDE (Across  all samples) 2.5686252364265942
+Test Min FDE 0.9895062931404692
+Test Best ADE Loss So Far (N = 20) 0.5786969207348209
+Test Best Min FDE (N = 20) 0.8780928150031487
+Test time error in destination best: 1.005 and mean: 2.538
+Test time error overall (ADE) best: 0.653
+Train Loss 367264.0178054235
+RCL 45486.751877510054
+KLD 159886.55409488056
+ADL 161890.7118330329
+Test ADE 0.6527503108385321
+Test Average FDE (Across  all samples) 2.5384922216821075
+Test Min FDE 1.005027570974381
+Test Best ADE Loss So Far (N = 20) 0.5786969207348209
+Test Best Min FDE (N = 20) 0.8780928150031487
+Test time error in destination best: 0.920 and mean: 2.459
+Test time error overall (ADE) best: 0.625
+Train Loss 380116.92530054797
+RCL 50246.37242483842
+KLD 159956.40755458566
+ADL 169914.14532112388
+Test ADE 0.6247694878410969
+Test Average FDE (Across  all samples) 2.4587939122210973
+Test Min FDE 0.9204746996314225
+Test Best ADE Loss So Far (N = 20) 0.5786969207348209
+Test Best Min FDE (N = 20) 0.8780928150031487
+Test time error in destination best: 0.888 and mean: 2.445
+Test time error overall (ADE) best: 0.589
+Train Loss 395103.27481181035
+RCL 57054.54617067877
+KLD 160830.18235583138
+ADL 177218.5462852999
+Test ADE 0.5886024241445514
+Test Average FDE (Across  all samples) 2.4446174968206424
+Test Min FDE 0.8877167940595377
+Test Best ADE Loss So Far (N = 20) 0.5786969207348209
+Test Best Min FDE (N = 20) 0.8780928150031487
+Test time error in destination best: 0.923 and mean: 2.504
+Test time error overall (ADE) best: 0.605
+Train Loss 362942.56123749097
+RCL 43065.81837699491
+KLD 160146.2405568378
+ADL 159730.50230365823
+Test ADE 0.6050141232352507
+Test Average FDE (Across  all samples) 2.504254777336033
+Test Min FDE 0.9232908511895249
+Test Best ADE Loss So Far (N = 20) 0.5786969207348209
+Test Best Min FDE (N = 20) 0.8780928150031487
+Test time error in destination best: 0.936 and mean: 2.445
+Test time error overall (ADE) best: 0.635
+Train Loss 378278.932936961
+RCL 50259.23548789922
+KLD 159992.4579612744
+ADL 168027.2394877876
+Test ADE 0.6347110995679405
+Test Average FDE (Across  all samples) 2.4446957598205246
+Test Min FDE 0.9361753692578604
+Test Best ADE Loss So Far (N = 20) 0.5786969207348209
+Test Best Min FDE (N = 20) 0.8780928150031487
+Test time error in destination best: 0.885 and mean: 2.461
+Test time error overall (ADE) best: 0.607
+Train Loss 374778.55352091766
+RCL 48346.43134098407
+KLD 159289.29299594756
+ADL 167142.82918398592
+Test ADE 0.6066672970941613
+Test Average FDE (Across  all samples) 2.4608062870435092
+Test Min FDE 0.885067273321586
+Test Best ADE Loss So Far (N = 20) 0.5786969207348209
+Test Best Min FDE (N = 20) 0.8780928150031487
+Test time error in destination best: 0.936 and mean: 2.521
+Test time error overall (ADE) best: 0.583
+Train Loss 367592.6947933982
+RCL 45581.449290345125
+KLD 160107.53148838665
+ADL 161903.71401466642
+Test ADE 0.5827352662548336
+Test Average FDE (Across  all samples) 2.5211829719290866
+Test Min FDE 0.9364359128638354
+Test Best ADE Loss So Far (N = 20) 0.5786969207348209
+Test Best Min FDE (N = 20) 0.8780928150031487
+Test time error in destination best: 0.929 and mean: 2.444
+Test time error overall (ADE) best: 0.628
+Train Loss 369769.884614993
+RCL 46185.05913194093
+KLD 159547.73304973755
+ADL 164037.09243331474
+Test ADE 0.6283532008574149
+Test Average FDE (Across  all samples) 2.4441744803195613
+Test Min FDE 0.9286677105074155
+Test Best ADE Loss So Far (N = 20) 0.5786969207348209
+Test Best Min FDE (N = 20) 0.8780928150031487
+Test time error in destination best: 0.956 and mean: 2.532
+Test time error overall (ADE) best: 0.629
+Train Loss 366705.1173444698
+RCL 45375.41319626295
+KLD 159704.26663011187
+ADL 161625.43751809487
+Test ADE 0.6293154049640959
+Test Average FDE (Across  all samples) 2.5323378795657754
+Test Min FDE 0.9562487411834496
+Test Best ADE Loss So Far (N = 20) 0.5786969207348209
+Test Best Min FDE (N = 20) 0.8780928150031487
+Test time error in destination best: 0.916 and mean: 2.496
+Test time error overall (ADE) best: 0.618
+Train Loss 363418.3450455436
+RCL 44740.69931422298
+KLD 159386.0498622279
+ADL 159291.59586909311
+Test ADE 0.6176342781390584
+Test Average FDE (Across  all samples) 2.495503428349997
+Test Min FDE 0.9155309733081988
+Test Best ADE Loss So Far (N = 20) 0.5786969207348209
+Test Best Min FDE (N = 20) 0.8780928150031487
+Test time error in destination best: 0.897 and mean: 2.467
+Test time error overall (ADE) best: 0.611
+Train Loss 372505.61254051275
+RCL 47657.765109609514
+KLD 159936.0373083479
+ADL 164911.81012255512
+Test ADE 0.6105734459924391
+Test Average FDE (Across  all samples) 2.467040946451184
+Test Min FDE 0.8966486917649437
+Test Best ADE Loss So Far (N = 20) 0.5786969207348209
+Test Best Min FDE (N = 20) 0.8780928150031487
