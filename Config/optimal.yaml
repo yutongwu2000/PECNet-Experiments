@@ -10,8 +10,8 @@ enc_dest_size:
 - 8
 - 16
 enc_latent_size:
-- 4
-- 25
+- 8
+- 50
 enc_past_size:
 - 512
 - 256
